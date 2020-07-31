@@ -20,7 +20,6 @@ const Course = () => {
     }
 
     const getInitialStateCovers = () => {
-        let i = 0;
         let savedCovers = [];
         let array = JSON.parse(localStorage.getItem("coversArray"));
         console.log(array);

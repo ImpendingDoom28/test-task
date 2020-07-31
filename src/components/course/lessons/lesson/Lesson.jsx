@@ -35,10 +35,6 @@ const Lesson = ({ lesson, index }) => {
         setSelectedCover(URL.createObjectURL(event.target.files[0]));
     }
 
-    const displayLoader = (event) => {
-        console.log("Скоро буду");
-    }
-
     const showFileBrowser = (event, name) => {
         event.preventDefault();
         switch (name) {
@@ -47,6 +43,8 @@ const Lesson = ({ lesson, index }) => {
                 break;
             case "cover":
                 coverRef.current.click();
+                break;
+            default:
                 break;
         }
     }
