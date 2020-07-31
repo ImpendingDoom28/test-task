@@ -1,0 +1,19 @@
+.titleWrapper {
+    margin-bottom: 1.4rem;
+}
+
+.courseCurrentSettingWrapper {
+    grid-area: main;
+}
+
+.courseWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.courseSettingsWrapper {
+    display: grid;
+    grid-template-areas: 
+    "main sidebar";
+    grid-template-columns: 5fr 1fr;
+}

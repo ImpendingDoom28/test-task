@@ -1,0 +1,11 @@
+.wrapper {
+    height: 3px;
+    width: 503px;
+    background: #E1E3E6;
+    border-radius: 2px;
+}
+
+.progressBar {
+    border-radius: inherit;
+    height: 100%;
+}

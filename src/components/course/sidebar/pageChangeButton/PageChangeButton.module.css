@@ -1,0 +1,21 @@
+button svg {
+    margin: 12px 12px 12px 0;
+}
+
+.selected {
+    color:#014CFF !important;
+    background: #F0F2F6 !important;
+}
+
+.button {
+    color:  #818C99;
+    background: #FFFFFF;
+    border: none;
+    text-align: left;
+    font-size: 1.05rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px;
+}

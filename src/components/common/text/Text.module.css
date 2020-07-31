@@ -1,0 +1,59 @@
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    color: #818C99;
+    margin-bottom: 0.5rem;
+    font-family: "SF Pro Text";
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.error {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FF0000;
+}
+
+.largeTitle {
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.buttonText {
+    margin: 12px 0;
+    justify-self: center;
+    font-size: large;
+    font-style: normal;
+    font-stretch: ultra-expanded;
+}
+
+.smallerTitle {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5A606F;
+}
+
+.smallTitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.largeInputText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;    
+    line-height: 20px;
+    color: #434DFF;
+}

@@ -1,0 +1,171 @@
+.lesson {
+    height: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 820px;
+}
+
+.stay {
+    transform: rotate(0deg);
+    transition: ease-in-out 0.3s;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: ease-in-out 0.3s;
+}
+
+.inputsWrapper {
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-areas: 
+        ". v"
+        "cd c"
+        "nd n"
+        "dd d";
+    grid-template-columns: 1fr 5.5fr;
+    grid-template-rows: 23.5rem 7rem 4rem 11rem;
+}
+
+.subtitleWrapper {
+    margin-bottom: 1rem;
+}
+
+.videoInput {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid #e3e5e9;
+    box-sizing: border-box;
+}
+
+.videoButton {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid #E1E3E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonContent {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+}
+
+.buttonContent div {
+    display: flex;
+    align-items: center;
+}
+
+.fileInput {
+    display: none;
+}
+
+.textWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.textWrapper div {
+    margin: 0;
+}
+
+.coverInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.coverButton {
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 88px;
+    width: 173px;
+    border: 1px dashed #E1E3E6;
+    background-color: #FFFFFF;
+}
+
+.coverButtonContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coverButtonContent img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 0.25rem;
+}
+
+.cover {
+    width: 173px;
+    height: 88px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+.nameInput {
+    width: 100%;
+    height: 55px;   
+}
+
+.descriptionInput textarea,
+.nameInput input {
+    padding: 17px 16px;
+    border: 1px solid #E1E3E6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FFFFFF;
+    width: calc(815px - 125px);
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.32px;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.descriptionInput textarea {
+    height: 153px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    resize: none;
+    font-family: sans-serif;
+}
+
+.mb {
+    margin: auto 0;
+}
+
+.loaderWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoSelectedText {
+    margin-bottom: 1.5rem;
+}
+
+.textWrapper .descriptionWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin-top: 4.25rem;
+}
